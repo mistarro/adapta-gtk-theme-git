@@ -1,0 +1,25 @@
+pkgbase = adapta-mint-gray-git
+	pkgdesc = A flat gray theme with mint accents based on Adapta.
+	pkgver = 3.95.0.16.r1
+	pkgrel = 1
+	url = https://github.com/mistarro/adapta-mint-gray-git
+	arch = any
+	license = GPL2
+	makedepends = git
+	makedepends = gnome-shell
+	makedepends = inkscape
+	makedepends = libxml2
+	makedepends = parallel
+	makedepends = sassc
+	depends = gtk-engine-murrine
+	depends = gtk3
+	optdepends = gnome-shell: The GNOME Shell
+	optdepends = gnome-flashback: The GNOME flashback shell
+	optdepends = budgie-desktop: The Budgie desktop
+	optdepends = cinnamon: The Cinnamon desktop
+	optdepends = xfdesktop: The Xfce desktop
+	conflicts = adapta-gtk-theme
+	source = git+https://github.com/mistarro/adapta-mint-gray.git
+	sha256sums = SKIP
+
+pkgname = adapta-mint-gray-git
